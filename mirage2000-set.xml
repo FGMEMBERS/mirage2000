@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+Mirage 2000C/RDI JSBSim config file
+Fabrice Kauffmann,  f-kauffmann@skynet.bet
+************************************************************************
+-->
+
+<PropertyList>
+
+ <sim>
+
+  <description>Mirage 2000C/RDI</description>
+  <author>Fabrice Kauffmann</author>
+  <status>Early development</status>
+ 
+  <flight-model>jsb</flight-model>
+  <aero>mirage2000</aero>
+
+  <startup>
+   <splash-texture>Aircraft/mirage2000/mirage2000-splash.rgb</splash-texture>
+  </startup>
+  
+  <sound>
+   <path>Aircraft/mirage2000/mirage2000-sound.xml</path>
+  </sound>
+
+  <panel>
+   <path>Aircraft/mirage2000/Panels/mirage2000-2d-panel.xml</path>
+   <visibility archive="y">true</visibility>
+  </panel> 
+  <panel_2>
+   <visibility>false</visibility>
+  </panel_2>
+  
+  <hud>
+   <path>Aircraft/mirage2000/Hud/default.xml</path>
+   <visibility>true</visibility>
+  </hud>
+  
+  <view>
+   <config>
+     <pitch-offset-deg>-11.8</pitch-offset-deg>
+     <default-field-of-view-deg>60</default-field-of-view-deg>
+   </config>
+  </view>
+
+  <model>
+   <path>Aircraft/mirage2000/Models/mirage2000.xml</path>
+  </model>
+
+  <chase-distance-m>-25</chase-distance-m>
+
+  <!-- turns off GA tower communications -->
+  <ATC>
+   <enabled type="bool">false</enabled>
+  </ATC>
+
+  <!-- turns off GA traffic -->
+  <ai-traffic>
+   <enabled type="bool">false</enabled>
+  </ai-traffic>
+
+ </sim>
+ 
+ <engines>
+  <engine n="0">
+    <running>true</running>
+  </engine>
+ </engines>
+ 
+</PropertyList>

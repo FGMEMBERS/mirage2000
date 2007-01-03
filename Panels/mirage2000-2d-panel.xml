@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<!--
+Mirage 2000C/RDI panel - 2006.12.26
+Based on F-16 panel art by Erik Hofman, erik@ehofman.com
+Fabrice Kauffmann, f-kauffmann@skynet.be
+_______________________________________________________________________
+-->
+
+<PropertyList>
+
+ <name>Mirage 2000C/RDI Panel</name>
+ <background>Aircraft/mirage2000/Panels/Textures/mirage2000panel-00.rgb</background>
+ <multibackground>Aircraft/mirage2000/Panels/Textures/mirage2000panel-00.rgb</multibackground>
+ <multibackground>Aircraft/mirage2000/Panels/Textures/mirage2000panel-01.rgb</multibackground>
+ <multibackground>Aircraft/mirage2000/Panels/Textures/mirage2000panel-06.rgb</multibackground>
+ <multibackground>Aircraft/mirage2000/Panels/Textures/mirage2000panel-02.rgb</multibackground>
+ <multibackground>Aircraft/mirage2000/Panels/Textures/mirage2000panel-07.rgb</multibackground>
+ <multibackground>Aircraft/mirage2000/Panels/Textures/mirage2000panel-03.rgb</multibackground>
+ <multibackground>Aircraft/mirage2000/Panels/Textures/mirage2000panel-00.rgb</multibackground>
+ <multibackground>Aircraft/mirage2000/Panels/Textures/mirage2000panel-04.rgb</multibackground>
+ <w>1024</w>
+ <h>768</h>
+ <y-offset>0</y-offset>
+ <view-height>1024</view-height>
+
+ <instruments>
+  <instrument include="kias.xml">
+   <name>KIAS Indicator</name>
+   <x>720</x>
+   <y>195</y>
+   <w>120</w>
+   <h>120</h>
+  </instrument>
+  
+  <instrument include="alt.xml">
+   <name>Altitude Indicator</name>
+   <x>720</x>
+   <y>58</y>
+   <w>120</w>
+   <h>120</h>
+  </instrument>
+
+  <instrument include="ded.xml">
+   <name>DED</name>
+   <x>280</x>
+   <y>60</y>
+   <w>120</w>
+   <h>120</h>
+  </instrument>
+
+
+  <instrument include="oil.xml">
+   <name>Oil pressure Indicator</name>
+   <x>820</x>
+   <y>180</y>
+   <w>43</w>
+   <h>41</h>
+  </instrument>
+
+  <instrument include="nozzle.xml">
+   <name>Nozzle position Indicator</name>
+   <x>831</x>
+   <y>120</y>
+   <w>64</w>
+   <h>62</h>
+  </instrument>
+
+  <instrument include="rpm.xml">
+   <name>RPM Indicator</name>
+   <x>845</x>
+   <y>40</y>
+   <w>85</w>
+   <h>80</h>
+  </instrument>
+
+  <instrument include="aoa.xml">
+   <name>ICP</name>
+   <x>160</x>
+   <y>118</y>
+   <w>12</w>
+   <h>12</h>
+  </instrument>
+
+
+ </instruments>
+
+</PropertyList>
