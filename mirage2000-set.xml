@@ -34,8 +34,8 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   </panel_2>
   
   <hud>
-   <path>Aircraft/mirage2000/Hud/default.xml</path>
-   <visibility>true</visibility>
+   <path n="1">Aircraft/mirage2000/Panels/hud.xml</path>
+   <visibility n="1">true</visibility>
   </hud>
   
   <view>
