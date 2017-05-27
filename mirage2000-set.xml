@@ -13,6 +13,24 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   <description>Mirage 2000C/RDI</description>
   <author>Fabrice Kauffmann</author>
   <status>Early development</status>
+
+  <tags>
+   <tag>fighter</tag>
+   <tag>dassault</tag>
+   <tag>1980s</tag>
+   <tag>1990s</tag>
+   <tag>2000s</tag>
+   <tag>2010s</tag>
+   <tag>delta</tag>
+   <tag>retractable-gear</tag>
+   <tag>hud</tag>
+   <tag>ifr</tag>
+   <tag>refuel</tag>
+   <tag>supersonic</tag>
+   <tag>afterburner</tag>
+   <tag>jet</tag>
+   <tag>single-engine</tag>
+  </tags>
  
   <flight-model>jsb</flight-model>
   <aero>mirage2000</aero>
